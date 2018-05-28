@@ -1,0 +1,16 @@
+listener start m:w:tam
+machine create m
+workspace create w
+repository set /home/daniel/NetBeansProjects/BasicMachine/repo/
+bworker load tester
+bworker run tester
+commline create URLidnes
+commline create URLBBC
+jworker load RSSReader reader_proxy
+jworker run reader_proxy
+jworker load RSSReader readerBBC_proxy
+jworker run readerBBC_proxy
+jworker load URLReader URLreader_proxy
+jworker run URLreader_proxy
+jworker load URLReader URLreaderBBC_proxy
+jworker run URLreaderBBC_proxy

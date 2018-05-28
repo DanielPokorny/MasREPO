@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <url>http://feeds.bbci.co.uk/news/world/rss.xml</url>
+
+    <output>URLBBC</output>
+</settings>

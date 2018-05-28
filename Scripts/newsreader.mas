@@ -1,0 +1,13 @@
+listener start m:w:tam
+machine create m
+workspace create w
+repository set /home/daniel/NetBeansProjects/basicmachine/repo/
+commline create URLidnes
+commline create extractor
+commline create tam
+jworker load RSSReader reader
+jworker run reader
+jworker load URLReader URLreader
+jworker run URLreader
+jworker load EntityExtractor Extractor
+jworker run Extractor

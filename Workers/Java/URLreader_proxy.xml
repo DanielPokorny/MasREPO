@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <proxy>
+      <address>192.168.1.1</address>
+      <port>8000</port>
+      <username>pokorny</username>
+      <password>apeigYFnt</password>
+    </proxy>
+    
+    <element>div.text</element>
+    
+    <input>URLidnes</input>
+    <output>extractor</output>
+</settings>
