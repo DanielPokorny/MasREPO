@@ -1,7 +1,7 @@
 listener start m:w:tam
 machine create m
 workspace create w
-repository set /home/daniel/NetBeansProjects/basicmachine/repo/
+repository set /home/daniel/IdeaProjects/MasRepo/
 commline create URLidnes
 commline create extractor
 commline create tam
