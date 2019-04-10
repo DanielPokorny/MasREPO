@@ -1,0 +1,12 @@
+{
+    "proxy":
+    {
+        "address": "192.168.1.1",
+        "port": "8000",
+        "username": "pokorny",
+        "password": "apeigYFnt"
+    },
+    "element": "div.text",
+    "input": "URLidnes",
+    "output": "extractor"
+}
