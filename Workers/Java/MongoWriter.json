@@ -1,0 +1,6 @@
+{
+    "input": "mongo",
+    "output": "mongodb://127.0.0.1:27017",
+    "database": "MasCLI",
+    "collection": "RSSReader"
+}
