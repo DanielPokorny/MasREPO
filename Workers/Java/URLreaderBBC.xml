@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<settings>
-    <element>div.story-body__inner</element>
-    
-    <input>URLBBC</input>
-    <output>tam</output>
-</settings>

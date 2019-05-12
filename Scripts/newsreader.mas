@@ -1,13 +1,14 @@
-listener start m:w:tam
 machine create m
 workspace create w
-repository set /home/daniel/IdeaProjects/MasRepo/
+repository set /home/daniel/IdeaProjects/MasREPO/
 commline create URLidnes
 commline create extractor
-commline create tam
+commline create mongo
 jworker load RSSReader reader
 jworker run reader
 jworker load URLReader URLreader
 jworker run URLreader
 jworker load EntityExtractor Extractor
 jworker run Extractor
+jworker load MongoWriter MongoWriter
+jworker run MongoWriter
